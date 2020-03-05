@@ -1,0 +1,1 @@
+Lo escrito en estos archivos fue extraido del "curso basicop de javascript"  de platzi dictado por el profesor "Diego De Granda"
