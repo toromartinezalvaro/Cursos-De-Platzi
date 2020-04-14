@@ -1,0 +1,21 @@
+/* FORMAS DE INCLUIR MEDIA QUERIES
+
+Podemos utilizar 3 metodos para incluir media queries en nuestros proyectos:
+
+    -traer una hoja de estilos condicionando el media queri (solo se accedera a la hoja de estilo si la condicion se cumple)
+        <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/>
+
+
+    -Añadir los media queries a la hoja de estilo que ya tenemos declarada en el css
+        <link rel="stylesheet" href="css/style.css"/>
+
+
+    -utilizar la etiqueta "style"
+        <style>
+            @media screen and (max-width: 768px){
+                body{
+                    border: 10px solid blue;
+                }
+            }
+        </style>
+*/

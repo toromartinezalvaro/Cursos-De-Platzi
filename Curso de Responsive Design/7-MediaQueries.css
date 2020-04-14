@@ -1,0 +1,34 @@
+/* MEDIA QUERIES
+
+Es el modulo de CSS3 que permite adaptar la representacion del contenido a las caracteristicas del dispositivo
+
+
+ESTRUCTURA DE MEDIA QUERI:
+    @media tipoDeMediaACambiar and (condición) and (condición){
+
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 480px){
+
+    }
+
+    Nota: En este ultimo ejemplo de Media Queri, se modificaran todas las pantallas(screen) con un ancho inferior o igual a 768px y mayor a 480px
+
+
+    MOBILE FIRST:
+        los media queri empiezan desde el tamaño mas pequeño
+
+            @media screen and (min-width: 320px){ }
+            @media screen and (min-width: 480px){ }
+            @media screen and (min-width: 768px){ }
+            @media screen and (min-width: 1024px){ }
+        
+    
+    DESKTOP FIRST:
+        los media queri empiezan desde el tamaño mas grande
+
+            @media screen and (min-width: 1024px){ }
+            @media screen and (min-width: 768px){ }
+            @media screen and (min-width: 480px){ }
+            @media screen and (min-width: 320px){ }
+*/

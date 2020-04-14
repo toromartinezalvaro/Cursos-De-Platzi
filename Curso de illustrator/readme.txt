@@ -1,0 +1,1 @@
+Lo escrito en estos archivos fue extraido del "curso de illustrator" de platzi dictado por el profesor "Carlos Jiménez"

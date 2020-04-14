@@ -1,0 +1,16 @@
+/*CONCEPTOS ELEMENTALES DE RESPONSIVE DESIGN (MEDIA QUERIES)
+
+
+-Viewport: Es el area visible del navegador (SIN HACER SCROLL)
+
+Portrait: cuando la pagina se visualiza de forma vertical
+
+landscape: cuando la pagina se visualiza de forma horizontal
+
+Tecnicas para abordar un sitio web: 
+    -Mobile First: Empezar un website desde la menor resolucion soportada
+    -Desktop First: Empezar un website desde la mayor resolucion soportada
+
+    NOTA: es mejor mobile first ya que asi el celular no tendra codigo extra, solo el correspondiente al del celular, la tablet el del celular + el de la tablet y el monitor el de la tablet mas el del monitos (en desktop first los celulares y tablets almacenan todo el codigo de la página establecida para monitores). De igual forma se debe saber desde que dispositivo se accedera con mayor frecuencia
+
+*/

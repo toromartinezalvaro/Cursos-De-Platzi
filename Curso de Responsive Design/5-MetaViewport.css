@@ -1,0 +1,13 @@
+/*Meta dato "viewport"
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    este metadato sirve para manipular el viewport, con el atributo "content" podemos modificar varios parametros como por ejemplo:
+
+        -width: Ancho de la pagina en px (con que ancho se vera el contenido). ejemplo:  "width=320". Para hacer que el ancho del viewport sea igual al ancho de la pantalla se usaria:  content=width=device-width
+
+        -initial-scale: es el zoom inicial de la pantalla, es la escala inicial, en el se usan valores desde 0 hasta 1.0 siendo 0 el 0% y 1.0 el 100% (se hace en base a el tamaño del width). ejemplo: initial-scale=1
+
+        -maximum-scale
+*/

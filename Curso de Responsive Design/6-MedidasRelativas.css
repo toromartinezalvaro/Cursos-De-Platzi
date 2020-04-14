@@ -1,0 +1,27 @@
+/*UNIDADES RELATIVAS DE MEDIDA
+
+Varian segun alguna condicion
+
+Existen las siguientes medidas relativas:
+    
+    -Porcentaje(%): es la longitud respecto al tamaño de los elementos del padre (con base en el padre se usa un porcentaje de la medida total del mismo)
+
+    -em : es una unidad relativa especificada al tamaño de fuente mas cercana, el orden seria, primero revisa al mismo elemento, si este no tiene tamaño de fuente, luego revisa al elemento padre, si tampoco tiene, revisa al siguiente y asi sucesivamente hasta que encuentre el tamaño de fuente mas cercano. LA fuente especificada tendria el valor de "1em" por lo cual "0.5em" seria la mitad del tamaño
+        Nota: si en un mismo elemento se declara la medida em y luego se vuelve a declarar em para otro atributo, el segundo em no buscara la medida del elemento padre si no de la otra que contiene el elemento
+
+        ejemplo:
+            <ul>                            ------------>font-size:16px                     
+                <li>                        ------------>font-size:2em(32px)                      
+                    <a href="">hola!</a>    ------------>font-size:0.5em(16px); padding:2em(32px) 
+                </li>
+            </ul>
+
+    -rem: Es la unidad relativa especificada al tamaño de fuente especificada en el ancestro mas lejano (html o body). En el body viene un tamaño especficado por defecto, sin embargo podemos especificar un tamaño  de fuente en la etiqueta html si lo deseamos
+
+    -vw / vh: Unidad relativa con respecto al viewport(area visible del navegador). No se modifican con base en ningun elemento padre, solo se modificaran estos valores segun el alto y ancho de la pantalla.
+        Ejemplo:
+
+        -vw: hace referencia al ancho de la pantalla. si por ejemplo se tiene una pantalla de 1024px de ancho, 100vw serian equivalentes a esos 1024px.
+
+        -vh: hace referencia al alto de la pantalla. si por ejemplo se tiene una pantalla de 437px de alto, 100vh serian equivalentes a esos 437px.
+*/
